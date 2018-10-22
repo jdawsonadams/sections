@@ -6,3 +6,36 @@ html {
   font-family: Lato, sans-serif;
   line-height: 1.5;
 }
+
+body {
+  margin: 1.5rem;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+h2 {
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  padding: .4em;
+  margin: 0;
+}
+
+a {
+  font-weight: normal;
+  font-family: sans-serif;
+  border: 3px solid #333;
+  color: #333;
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em .75em;
+  background-color: #eee9de;
+  border-radius: .3em;
+  margin: .3em;
+}
+
+a:hover {
+  color: #fff;
+  background-color: #666
+}
