@@ -5,10 +5,11 @@ html {
   font-weight: normal;
   font-family: Lato, sans-serif;
   line-height: 1.5;
+  vertical-align: middle;
 }
 
 body {
-  margin: 1rem;
+  margin: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -16,21 +17,19 @@ body {
 }
 
 img {
-  padding: 0 0 1em;
   width: 20em;
-  display: inline-block;
+  display: block;
 }
 
 h2 {
   font-weight: bold;
   font-family: Lato, sans-serif;
-  padding: 0 0 .4em;
-  margin: 0;
+  text-align: left;
 }
 
 div {
-  max-width: 25em;
-    display: inline-block;
+  max-width: 15em;
+  display: inline-block;
 }
 
 a {
@@ -44,6 +43,7 @@ a {
   background-color: #eee9de;
   border-radius: .3em;
   margin: .3em;
+  text-align: center;
 }
 
 a:hover {
