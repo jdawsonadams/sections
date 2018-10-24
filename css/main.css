@@ -32,7 +32,7 @@ div {
   display: inline-block;
 }
 
-a .btn {
+.btn a {
   font-weight: normal;
   font-family: sans-serif;
   border: 3px solid #333;
@@ -46,7 +46,7 @@ a .btn {
   text-align: center;
 }
 
-a .btn:hover {
+.btn a:hover {
   color: #fff;
   background-color: #666;
   border: 3px solid #666;
