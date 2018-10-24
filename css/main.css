@@ -32,7 +32,7 @@ div {
   display: inline-block;
 }
 
-a {
+a.btn {
   font-weight: normal;
   font-family: sans-serif;
   border: 3px solid #333;
