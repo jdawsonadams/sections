@@ -28,6 +28,7 @@ h2 {
 }
 
 div {
+  padding: 1em;
   max-width: 15em;
   display: inline-block;
 }
