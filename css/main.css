@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  margin: 1rem;
+  margin: 0;
 }
 
 *, *::before, *::after {
@@ -17,7 +17,7 @@ body {
 }
 
 img {
-  width: 20em;
+  width: 25em;
   display: block;
 }
 
@@ -32,7 +32,7 @@ div {
   display: inline-block;
 }
 
-a.btn {
+a .btn {
   font-weight: normal;
   font-family: sans-serif;
   border: 3px solid #333;
@@ -46,7 +46,7 @@ a.btn {
   text-align: center;
 }
 
-a:hover {
+a .btn:hover {
   color: #fff;
   background-color: #666;
   border: 3px solid #666;
