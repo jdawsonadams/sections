@@ -14,7 +14,16 @@ body {
   box-sizing: inherit;
 }
 
-img {
+.img {
+  display: inline-block;
+  max-width: 25em;
+  margin-top: 1.5rem;
+  padding-top: 1.5em;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+  img {
   display: block;
   width: 100%;
   margin-top: auto;
