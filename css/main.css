@@ -2,10 +2,8 @@ html {
   box-sizing: border-box;
   background-color: #eee9de;
   color: #333;
-  font-weight: normal;
   font-family: Lato, sans-serif;
   line-height: 1.5;
-  vertical-align: middle;
 }
 
 body {
@@ -19,36 +17,46 @@ body {
 img {
   display: block;
   width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+section {
+  vertical-align: middle;
+  text-align: center;
+  margin: 0;
 }
 
 h2 {
-  font-weight: bold;
-  font-family: Lato, sans-serif;
-  text-align: left;
+  display: inline-block;
+  font-weight: bolder;
+  margin-bottom: .5rem;
+  margin-top: 0;
 }
 
-div {
-  padding: 1em;
-  max-width: 15em;
+p {
+  max-width: 22em;
+  font-weight: bold;
+}
+
+button {
   display: inline-block;
+  padding: .6em .75em;
+  border: 3px solid #333;
+  border-radius: 7px;
+  background-color: #eee9de;
+  margin-top: .6rem;
+  margin-bottom: 3rem;
+  font-size: 1.125rem;
 }
 
 .btn {
-  font-weight: normal;
-  font-family: sans-serif;
-  border: 3px solid #333;
-  color: #333;
-  display: inline-block;
   text-decoration: none;
-  padding: .5em .75em;
-  background-color: #eee9de;
-  border-radius: .3em;
-  margin: .3em;
+  color: #333;
   text-align: center;
 }
 
 a:hover {
-  color: #fff;
   background-color: #666;
-  border: 3px solid #666;
+  color: #eee9de;
 }
