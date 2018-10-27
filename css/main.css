@@ -23,7 +23,7 @@ body {
   padding-left: 1em;
 }
 
-  img {
+img {
   display: block;
   width: 100%;
   margin-top: auto;
@@ -34,6 +34,16 @@ section {
   vertical-align: middle;
   text-align: center;
   margin: 0;
+}
+
+.words {
+  display: inline-block;
+  max-width: 25em;
+  text-align: left;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  padding-top: 1.5em;
+  padding-left: 1em;
 }
 
 h2 {
